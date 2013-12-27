@@ -1,0 +1,22 @@
+[user]
+name = Nicholas Pilkington
+email = nicholas.pilkington@gmail.com
+
+[alias]
+    ci = commit -a
+    co = checkout
+    st = status -a
+    br = branch
+
+[diff]
+    color = auto
+    rename = copy
+
+[color]
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
+
+[http]
+	sslverify = false
