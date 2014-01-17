@@ -1,0 +1,59 @@
+Host vagrant
+Hostname 127.0.0.1
+Port 2222
+User vagrant
+ServerAliveInterval 300
+
+Host web
+Hostname ec2-54-227-123-159.compute-1.amazonaws.com
+User ubuntu
+ServerAliveInterval 300
+IdentityFile ~/.ssh/ec2.pem
+
+Host staging_web
+Hostname ec2-54-227-185-88.compute-1.amazonaws.com
+User ubuntu
+ServerAliveInterval 300
+IdentityFile ~/.ssh/ec2.pem
+
+Host simulation_1
+Hostname ec2-54-224-165-65.compute-1.amazonaws.com
+User ubuntu
+ServerAliveInterval 300 
+IdentityFile ~/.ssh/ec2.pem
+
+Host simulation_2
+Hostname ec2-54-242-31-241.compute-1.amazonaws.com
+User ubuntu
+ServerAliveInterval 300 
+IdentityFile ~/.ssh/ec2.pem
+
+Host simulation_3
+Hostname ec2-54-211-2-103.compute-1.amazonaws.com
+User ubuntu
+ServerAliveInterval 300 
+IdentityFile ~/.ssh/ec2.pem
+
+Host simulation_4
+Hostname ec2-184-73-120-233.compute-1.amazonaws.com
+User ubuntu
+ServerAliveInterval 300 
+IdentityFile ~/.ssh/ec2.pem
+
+Host hypervisor
+Hostname ec2-54-211-59-194.compute-1.amazonaws.com
+User ubuntu
+ServerAliveInterval 300 
+IdentityFile ~/.ssh/ec2.pem
+
+Host box
+Hostname ec2-54-205-77-124.compute-1.amazonaws.com
+User ubuntu
+ServerAliveInterval 300 
+IdentityFile ~/.ssh/ec2.pem
+
+Host tunnel
+Hostname ec2-54-194-98-125.eu-west-1.compute.amazonaws.com
+User ubuntu
+ServerAliveInterval 300 
+IdentityFile ~/.ssh/ec2uk.pem
